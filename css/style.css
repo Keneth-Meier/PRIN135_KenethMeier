@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+@media only screen 
+  and (max-device-width: 767px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 991px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+@media screen 
+  and (min-device-width: 992px) 
+  and (max-device-width: 1000px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu;
+}
+
+section{
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+h2{
+  position: relative;
+  font-weight: 600;
+  color: black;
+  font-size: 1.825rem;
+  text-align: center;
+  margin: 1.3rem 0;
+}
+
+.menu h4{
+  text-align: right;
+  border: 1px;
+  font-weight: 600;
+  color: black;
+  font-size: 1rem;
+  margin: 1rem 0 0.6rem;
+
+}
+
+.menu {
+  position: relative;
+  background: grey;
+  margin-left: 20px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+  text-align: left;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
+.menu-grid{
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.ttl{
+  position: relative;
+  padding: 0px 20px 0px 20px;
+  margin: 0px 0px 10px 150px;
+  border-top: 1px solid black;
+  border-right: 0px;
+}
+
+.ttl h4{
+  text-align: center;
+}
+
+.menu1 .ttl {
+  background-color: #FFCCD2;
+}
+
+.menu2 .ttl,
+.menu2 .ttl h4 {
+  background-color: #E05D5D;
+  color: white;
+}
+
+
+.menu3 .ttl {
+  background-color: #E2C275;
+}
